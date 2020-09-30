@@ -76,13 +76,13 @@ You can use as many **`^`** operators as you like, each operator will move one l
 
 ...will output to
 
-```HTML
+<pre>
 <div></div>
 <div>
     <p><span></span><em></em></p>
 </div>
 <blockquote></blockquote>
-```
+</pre>
 
 ### Multiplication: `*`
 With **`*`** operator you can define how many times element should be outputted:
@@ -91,7 +91,8 @@ With **`*`** operator you can define how many times element should be outputted:
 
 ... outputs to
 
-```HTML
+
+<pre>
 <ul>
     <li></li>
     <li></li>
@@ -99,4 +100,4 @@ With **`*`** operator you can define how many times element should be outputted:
     <li></li>
     <li></li>
 </ul>
-```
+</pre>
