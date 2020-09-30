@@ -92,8 +92,11 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "sandbox.html", "styles.css"
+  ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "vscode"
