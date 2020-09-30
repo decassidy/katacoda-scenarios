@@ -7,3 +7,6 @@ Basically, most text editors out there allow you to store and re-use commonly us
 Emmet takes the snippets idea to a whole new level: you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation. Emmet is developed and optimised for web-developers whose workflow depends on HTML/XML and CSS, but can be used with programming languages too. 
 
 Start learning Emmet with the [abbreviation syntax](https://docs.emmet.io/abbreviations/) and available [actions](https://docs.emmet.io/actions/).
+
+### Elements
+You can use elements’ names like div or p to generate HTML tags. Emmet doesn’t have a predefined set of available tag names, you can write any word and transform it into a tag: ```div → <div></div>, foo → <foo></foo>``` and so on.
