@@ -21,7 +21,7 @@ You can use `>` operator to nest elements inside each other:
 
 ... will produce
 
-```html
+```HTML
 <div>
     <ul>
         <li></li>
@@ -36,7 +36,7 @@ Use **`+`** operator to place elements near each other, on the same level:
 
 ... will produce
 
-```html
+```HTML
 <div></div>
 <p></p>
 <blockquote></blockquote>
@@ -49,7 +49,7 @@ With `>` operator you’re descending down the generated tree and positions of a
 
 ... will be expanded to
 
-```html
+```HTML
 <div></div>
 <div>
     <p><span></span><em></em></p>
@@ -62,7 +62,7 @@ With `^` operator, you can climb one level up the tree and change context where 
 
 ... outputs to
 
-```html
+```HTML
 <div></div>
 <div>
     <p><span></span><em></em></p>
@@ -76,7 +76,7 @@ You can use as many **`^`** operators as you like, each operator will move one l
 
 ...will output to
 
-```html
+```HTML
 <div></div>
 <div>
     <p><span></span><em></em></p>
@@ -91,7 +91,7 @@ With **`*`** operator you can define how many times element should be outputted:
 
 ... outputs to
 
-```html
+```HTML
 <ul>
     <li></li>
     <li></li>

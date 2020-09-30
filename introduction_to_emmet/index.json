@@ -4,13 +4,12 @@
   "difficulty": "Intermediate",
   "time": "2 hours",
   "details": {
-    "steps": [
-      {
-        "title": "Emmet Syntax Fundamentals",
+    "steps": [{
+        "title": "Abbrevation Syntax",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Abbrevation Syntax",
         "text": "step2.md"
       },
       {
