@@ -22,7 +22,7 @@ Nesting operators are used to position abbreviation elements inside generated tr
 #### Child: `>`
 You can use `>` operator to nest elements inside each other:
 
-### **`div>ul>li`**
+### **`div>ul>li`** + press <kbd>Tab</kbd> key
 
 ... will produce
 
@@ -37,7 +37,7 @@ You can use `>` operator to nest elements inside each other:
 ### Sibling: `+`
 Use **`+`** operator to place elements near each other, on the same level:
 
-### **`div+p+bq`**
+### **`div+p+bq`** + press <kbd>Tab</kbd> key
 
 ... will produce
 
@@ -50,7 +50,7 @@ Use **`+`** operator to place elements near each other, on the same level:
 ### Climb-up: `^`
 With `>` operator you’re descending down the generated tree and positions of all sibling elements will be resolved against the most deepest element:
 
-### **`div+div>p>span+em`**
+### **`div+div>p>span+em`** + press <kbd>Tab</kbd> key
 
 ... will be expanded to
 
