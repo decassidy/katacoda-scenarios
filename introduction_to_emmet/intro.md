@@ -63,7 +63,7 @@ With `>` operator you’re descending down the generated tree and positions of a
 
 With `^` operator, you can climb one level up the tree and change context where following elements should appear:
 
-### **`div+div>p>span+em^bq`**
+### **`div+div>p>span+em^bq`** + press <kbd>Tab</kbd> key
 
 ... outputs to
 
@@ -77,7 +77,7 @@ With `^` operator, you can climb one level up the tree and change context where 
 
 You can use as many **`^`** operators as you like, each operator will move one level up:
 
-### **`div+div>p>span+em^^^bq`**
+### **`div+div>p>span+em^^^bq`** + press <kbd>Tab</kbd> key
 
 ...will output to
 
@@ -92,7 +92,7 @@ You can use as many **`^`** operators as you like, each operator will move one l
 ### Multiplication: `*`
 With **`*`** operator you can define how many times element should be outputted:
 
-### **`ul>li*5`**
+### **`ul>li*5`** + press <kbd>Tab</kbd> key
 
 ... outputs to
 
@@ -110,7 +110,7 @@ With **`*`** operator you can define how many times element should be outputted:
 
 Parenthesises are used by Emmets’ power users for grouping subtrees in complex abbreviations:
 
-### **``div>(header>ul>li*2>a)+footer>p``**
+### **``div>(header>ul>li*2>a)+footer>p``** + press <kbd>Tab</kbd> key
 
 ... expands to
 
@@ -132,7 +132,7 @@ f you’re working with browser’s DOM, you may think of groups as Document Fra
 
 You can nest groups inside each other and combine them with multiplication `*` operator:
 
-### **`(div>dl>(dt+dd)*3)+footer>p`**
+### **`(div>dl>(dt+dd)*3)+footer>p`** + press <kbd>Tab</kbd> key
 
 ... produces
 
@@ -161,7 +161,7 @@ Attribute operators are used to modify attributes of outputted elements. For exa
 
 In _CSS_, you use **`elem#id`** and **`elem.class`** notation to reach the elements with specified **`id`** or **`class`** attributes. In Emmet, you can use the very same syntax to add these attributes to specified element:
 
-### **``div#header+div.page+div#footer.class1.class2.class3``**
+### **``div#header+div.page+div#footer.class1.class2.class3``** + press <kbd>Tab</kbd> key
 
 ... will output
 
@@ -175,7 +175,7 @@ In _CSS_, you use **`elem#id`** and **`elem.class`** notation to reach the eleme
 
 You can use `[attr]` notation (as in _CSS_) to add custom attributes to your element:
 
-### **``td[title="Hello world!" colspan=3]``**
+### **``td[title="Hello world!" colspan=3]``** + press <kbd>Tab</kbd> key
 
 ... outputs
 
