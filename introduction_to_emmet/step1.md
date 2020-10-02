@@ -24,8 +24,9 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
     <title>Emmet Abbreviations</title>
 </head>
 <body>
-    
+    <!-- Type the following Emmet Syntax and hit the TAB key to expand it.-->
+    p{My cat is}>strong{very}^{grumpy.}
+    div.more-emmet>h1{Learning Emmet}+p{Learn coding HTML faster using Emmet web developer tool.}
 </body>
 </html>
-</pre>
 ```{{copy}}
