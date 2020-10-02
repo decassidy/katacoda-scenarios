@@ -10,7 +10,7 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
 
 2. Open the 'emmet-syntax.html" file in VS Code using the link below to get started.
 
-#### `emmet-syntax.html`{{open}}
+#### `./emmet-lessons/emmet-syntax.html`{{open}}
 
 3. Click the link below to add the Emmet syntax line then tap the <kbd>Tab</kbd> to expand the syntax to HTML:
    
