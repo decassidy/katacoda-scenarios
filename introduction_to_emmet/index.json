@@ -92,12 +92,8 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "sandbox.html", "styles.css"
-  ],
   "environment": {
-    "uilayout": "vscode-terminal-split",
-    "uisettings": "html"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "vscode"
