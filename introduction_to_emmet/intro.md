@@ -26,13 +26,13 @@ You can use `>` operator to nest elements inside each other:
 
 ... will produce
 
-<pre><code class="html">
+```html
 <div>
     <ul>
         <li></li>
     </ul>
 </div>
-</code></pre>
+```
 
 ### Sibling: `+`
 Use **`+`** operator to place elements near each other, on the same level:
