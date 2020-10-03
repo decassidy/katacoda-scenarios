@@ -1,6 +1,6 @@
 # Nesting Operator Using Emmet
 
-**Child: `>` Operator:
+**Child: `>` Operator:**
 
 The child operator (represented as the greater than `>` sign) is used to nest HTML tags using the Emmet syntax.
 
