@@ -14,7 +14,7 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
 
 3. Click the link below to add the Emmet syntax line then tap the <kbd>Tab</kbd> to expand the syntax to HTML:
    
-<pre class="file" data-target="clipboard"><!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,4 +26,4 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
     
 </body>
 </html>
-</pre>
+</pre>```{{copy}}
