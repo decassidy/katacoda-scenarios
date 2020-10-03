@@ -1,3 +1,8 @@
 {
-    "editor.fontSize": 24
+    "editor.fontSize": 24,
+    "markdown.extension.print.onFileSave": true,
+    "markdown.extension.toc.orderedList": true,
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true
 }
