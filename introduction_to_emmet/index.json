@@ -96,7 +96,8 @@
     "sandbox.html", "styles.css"
   ],
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "vscode-terminal-split",
+    "uisettings": "html"
   },
   "backend": {
     "imageid": "vscode"
