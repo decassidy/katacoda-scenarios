@@ -14,13 +14,13 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
 
 3. Click the link below to add the Emmet syntax line then tap the <kbd>Tab</kbd> to expand the syntax to HTML:
    
-<pre class="file" data-filename="emmet-syntax.html" data-target="replace"><!DOCTYPE html>
+<pre class="file" data-filename="emmet-syntax.html" data-target="prepend"><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Emmet Abbreviations</title>
 </head>
 <body>
     
