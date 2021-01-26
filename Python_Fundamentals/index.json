@@ -1,0 +1,395 @@
+{
+  "private": "true",
+  "title": "Python Fundamentals",
+  "description": "Learn the fundamentals in Python to create simple but powerful scripts or programs.",
+  "difficulty": "Beginner",
+  "time": "25 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Using the Python Interpreter",
+        "text": "step1.md"
+      },
+      {
+        "title": "An Informal Introduction to Python",
+        "text": "step2.md"
+      },
+      {
+        "title": "Using Python as a Calculator",
+        "text": "step3.md"
+      },
+      {
+        "title": "Strings",
+        "text": "step4.md"
+      },
+      {
+        "title": "Lists",
+        "text": "step5.md"
+      },
+      {
+        "title": "First Step Toward Programming",
+        "text": "step6.md"
+      },
+      {
+        "title": "More Control Flow Tools",
+        "text": "step7.md"
+      },
+      {
+        "title": "Defining Functions",
+        "text": "step8.md"
+      },
+      {
+        "title": "More on Defining Functions",
+        "text": "step9.md"
+      },
+      {
+        "title": "Lambda Expression",
+        "text": "step10.md"
+      },
+      {
+        "title": "Documentation Strings",
+        "text": "step11.md"
+      },
+      {
+        "title": "Data Structures",
+        "text": "step12.md"
+      },
+      {
+        "title": "Using Lists as Stacks and Queues",
+        "text": "step13.md"
+      },
+      {
+        "title": "List Comprehensions",
+        "text": "step14.md"
+      },
+      {
+        "title": "Nested List Comprehensions",
+        "text": "step15.md"
+      },
+      {
+        "title": "The del Statement",
+        "text": "step16.md"
+      },
+      {
+        "title": "Tuples and Sequences",
+        "text": "step17.md"
+      },
+      {
+        "title": "Sets",
+        "text": "step18.md"
+      },
+      {
+        "title": "Dictionaries",
+        "text": "step19.md"
+      },
+      {
+        "title": "Looping Techniques",
+        "text": "step20.md"
+      },
+      {
+        "title": "More on Conditions",
+        "text": "step21.md"
+      },
+      {
+        "title": "Comparing Sequences and Other Types",
+        "text": "step22.md"
+      },
+      {
+        "title": "Modules",
+        "text": "step23.md"
+      },
+      {
+        "title": "More on Modules",
+        "text": "step24.md"
+      },
+      {
+        "title": "Executing modules as scripts",
+        "text": "step25.md"
+      },
+      {
+        "title": "The Module Search Path",
+        "text": "step26.md"
+      },
+      {
+        "title": "Compiled” Python files",
+        "text": "step27.md"
+      },
+      {
+        "title": "Standard Modules",
+        "text": "step28.md"
+      },
+      {
+        "title": "The dir() Function",
+        "text": "step29.md"
+      },
+      {
+        "title": "Packages",
+        "text": "step30.md"
+      },
+      {
+        "title": "Importing * From a Package",
+        "text": "step31.md"
+      },
+      {
+        "title": "Intra-package References",
+        "text": "step32.md"
+      },
+      {
+        "title": "Packages in Multiple Directories",
+        "text": "step33.md"
+      },
+      {
+        "title": "Input and Output",
+        "text": "step34.md"
+      },
+      {
+        "title": "Fancier Output Formatting",
+        "text": "step35.md"
+      },
+      {
+        "title": "Formatted String Literals",
+        "text": "step36.md"
+      },
+      {
+        "title": "The String format() Method",
+        "text": "step37.md"
+      },
+      {
+        "title": "Manual String Formatting",
+        "text": "step38.md"
+      },
+      {
+        "title": "Old string formatting",
+        "text": "step39.md"
+      },
+      {
+        "title": "Reading and Writing Files",
+        "text": "step40.md"
+      },
+      {
+        "title": "Methods of File Objects",
+        "text": "step41.md"
+      },
+      {
+        "title": "Saving structured data with json",
+        "text": "step42.md"
+      },
+      {
+        "title": "Errors and Exceptions",
+        "text": "step43.md"
+      },
+      {
+        "title": "Syntax Errors",
+        "text": "step44.md"
+      },
+      {
+        "title": "Exceptions",
+        "text": "step45.md"
+      },
+      {
+        "title": "Handling Exceptions",
+        "text": "step46.md"
+      },
+      {
+        "title": "Raising Exceptions",
+        "text": "step47.md"
+      },
+      {
+        "title": "User-defined Exceptions",
+        "text": "step48.md"
+      },
+      {
+        "title": "Defining Clean-up Actions",
+        "text": "step49.md"
+      },
+      {
+        "title": "Predefined Clean-up Actions",
+        "text": "step50.md"
+      },
+      {
+        "title": "Classes",
+        "text": "step51.md"
+      },
+      {
+        "title": "A Word About Names and Objects",
+        "text": "step52.md"
+      },
+      {
+        "title": "Python Scopes and Namespaces",
+        "text": "step53.md"
+      },
+      {
+        "title": "Scopes and Namespaces Example",
+        "text": "step54.md"
+      },
+      {
+        "title": "A First Look at Classes",
+        "text": "step55.md"
+      },
+      {
+        "title": "Class Definition Syntax",
+        "text": "step56.md"
+      },
+      {
+        "title": "Class Objects",
+        "text": "step57.md"
+      },
+      {
+        "title": "Instance Objects",
+        "text": "step58.md"
+      },
+      {
+        "title": "Method Objects",
+        "text": "step59.md"
+      },
+      {
+        "title": "Class and Instance Variables",
+        "text": "step60.md"
+      },
+      {
+        "title": "Random Remarks",
+        "text": "step61.md"
+      },
+      {
+        "title": "Inheritance",
+        "text": "step62.md"
+      },
+      {
+        "title": "Multiple Inheritance",
+        "text": "step63.md"
+      },
+      {
+        "title": "Private Variables",
+        "text": "step64.md"
+      },
+      {
+        "title": "Odds and Ends",
+        "text": "step65.md"
+      },
+      {
+        "title": "Iterators",
+        "text": "step66.md"
+      },
+      {
+        "title": "Generators",
+        "text": "step67.md"
+      },
+      {
+        "title": "Generator Expressions",
+        "text": "step68.md"
+      },
+      {
+        "title": "Brief Tour of the Standard Library",
+        "text": "step69.md"
+      },
+      {
+        "title": "Operating System Interface",
+        "text": "step70.md"
+      },
+      {
+        "title": "File Wildcards",
+        "text": "step71.md"
+      },
+      {
+        "title": "Command Line Arguments",
+        "text": "step72.md"
+      },
+      {
+        "title": "Error Output Redirection and Program Termination",
+        "text": "step73.md"
+      },
+      {
+        "title": "String Pattern Matching",
+        "text": "step74.md"
+      },
+      {
+        "title": "Mathematics",
+        "text": "step75.md"
+      },
+      {
+        "title": "Internet Access",
+        "text": "step76.md"
+      },
+      {
+        "title": "Dates and Times",
+        "text": "step77.md"
+      },
+      {
+        "title": "Data Compression",
+        "text": "step78.md"
+      },
+      {
+        "title": "Performance Measurement",
+        "text": "step79.md"
+      },
+      {
+        "title": "Quality Control",
+        "text": "step80.md"
+      },
+      {
+        "title": "Brief Tour of the Standard Library — Part II",
+        "text": "step81.md"
+      },
+      {
+        "title": "Output Formatting",
+        "text": "step82.md"
+      },
+      {
+        "title": "Templating",
+        "text": "step83.md"
+      },
+      {
+        "title": "Working with Binary Data Record Layouts",
+        "text": "step84.md"
+      },
+      {
+        "title": "Multi-threading",
+        "text": "step85.md"
+      },
+      {
+        "title": "Logging",
+        "text": "step86.md"
+      },
+      {
+        "title": "Weak References",
+        "text": "step87.md"
+      },
+      {
+        "title": "Tools for Working with Lists",
+        "text": "step88.md"
+      },
+      {
+        "title": "Decimal Floating Point Arithmetic",
+        "text": "step89.md"
+      },
+      {
+        "title": "Virtual Environments and Packages",
+        "text": "step90.md"
+      },
+      {
+        "title": "Introduction to Virtual Environments",
+        "text": "step91.md"
+      },
+      {
+        "title": "Creating Virtual Environments",
+        "text": "step92.md"
+      },
+      {
+        "title": "Managing Packages with pip",
+        "text": "step93.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
