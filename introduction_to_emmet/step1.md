@@ -14,7 +14,7 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
 
 3. Click the link below to add the Emmet syntax line then tap the <kbd>Tab</kbd> to expand the syntax to HTML:
    
-```html
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,8 +25,8 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
 </head>
 <body>
     <!-- Type the following Emmet Syntax and hit the TAB key to expand it.-->
-    p{My cat is}>strong{very}^{grumpy.}
-    div.more-emmet>h1{Learning Emmet}+p{Learn coding HTML faster using Emmet web developer tool.}
+    
 </body>
 </html>
 ```{{copy}}
+
