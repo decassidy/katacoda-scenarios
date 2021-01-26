@@ -6,11 +6,11 @@ The child operator (represented as the greater than `>` sign) is used to nest HT
 
 1. Click on the command link below to initialize this lesson.
 
-#### `mkdir emmet-lessons && cd emmet-lessons && touch emmet-syntax.html`{{execute}}
+##### ```mkdir emmet-lessons && cd emmet-lessons && touch emmet-syntax.html```{{execute}}
 
 2. Open the 'emmet-syntax.html" file in VS Code using the link below to get started.
 
-#### `./emmet-lessons/emmet-syntax.html`{{open}}
+##### ```./emmet-lessons/emmet-syntax.html```{{open}}
 
 3. Click the link below to add the Emmet syntax line then tap the <kbd>Tab</kbd> to expand the syntax to HTML:
    
