@@ -49,9 +49,9 @@ Abbreviations are optimised for, but not limited to, HTML and XML generation, an
 </html>
 ```{{copy}}
 
-4. Copy the following HTML code below the comment in the `./emmet-lessons/emmet-syntax.html`
+4. Copy the following HTML code below the comment in the *`./emmet-lessons/emmet-syntax.html`*
 
-`_#page>div.logo+ul#navigation>li*5>a{Item $_`{{copy}}
+*`#page>div.logo+ul#navigation>li*5>a{Item $`*{{copy}}
 
-5. Add `}` closing bracket to the emmet abbreviation and press the <kbd>tab</kbd> Key.
+5. Add *`}`* closing bracket to the emmet abbreviation and press the <kbd>tab</kbd> Key.
 
