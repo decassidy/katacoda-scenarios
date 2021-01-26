@@ -49,5 +49,7 @@ Abbreviations are optimised for, but not limited to, HTML and XML generation, an
 </html>
 ```{{copy}}
 
-4. Copy the following HTML code below the comment in the `./emmet-lessons/emmet-syntax.html`{{copy}}
+4. Copy the following HTML code below the comment in the `./emmet-lessons/emmet-syntax.html`
+
+`#page>div.logo+ul#navigation>li*5>a{Item $}`{{copy}}
 
