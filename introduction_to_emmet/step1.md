@@ -4,10 +4,10 @@ Abbreviations are the heart of the Emmet toolkit: these special expressions are 
 
 Here’s an example: this abbreviation:
 
-```#page>div.logo+ul#navigation>li*5>a{Item $}```
+```.page>div.logo+ul#navigation>li*5>a{Item $}```
 
 ```HTML
-<div id="page">
+<div class="page">
     <div class="logo"></div>
     <ul id="navigation">
         <li><a href="">Item 1</a></li>
@@ -58,7 +58,7 @@ Abbreviations are optimised for, but not limited to, HTML and XML generation, an
 You should see the above abbreviation output like this:
 
 ```HTML
-<div id="page">
+<div class="page">
     <div class="logo"></div>
     <ul id="navigation">
         <li><a href="">Item 1</a></li>
