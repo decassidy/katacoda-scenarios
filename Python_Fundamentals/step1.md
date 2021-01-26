@@ -29,7 +29,7 @@ When known to the interpreter, the script name and additional arguments thereaft
 
 When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts for the next command with the primary prompt, usually three greater-than signs (*`>>>`*); for continuation lines it prompts with the secondary prompt, by default three dots (*`...`*). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt:
 
-```python
+```BASH
 $ python3.8
 Python 3.8 (default, Sep 16 2015, 09:25:04)
 [GCC 4.8.2] on linux
