@@ -55,3 +55,18 @@ Abbreviations are optimised for, but not limited to, HTML and XML generation, an
 
 5. Add *`}`* closing bracket to the emmet abbreviation and press the <kbd>tab</kbd> Key.
 
+You should see the above abbreviation output like this:
+
+```HTML
+<div id="page">
+    <div class="logo"></div>
+    <ul id="navigation">
+        <li><a href="">Item 1</a></li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li><a href="">Item 4</a></li>
+        <li><a href="">Item 5</a></li>
+    </ul>
+</div>
+```
+
