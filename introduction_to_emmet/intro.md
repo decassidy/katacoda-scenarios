@@ -19,10 +19,10 @@ You can use elements’ names like div or p to generate HTML tags. Emmet doesn�
 Nesting operators are used to position abbreviation elements inside generated tree: whether it should be placed inside or near the context element.
 
 
-#### Child: `>`
+###### Child: `>`
 You can use `>` operator to nest elements inside each other:
 
-### **`div>ul>li`** + press <kbd>Tab</kbd> key
+###### **`div>ul>li`** + press <kbd>Tab</kbd> key
 
 ... will produce
 
@@ -37,7 +37,7 @@ You can use `>` operator to nest elements inside each other:
 ### Sibling: `+`
 Use **`+`** operator to place elements near each other, on the same level:
 
-### **`div+p+bq`** + press <kbd>Tab</kbd> key
+###### **`div+p+bq`** + press <kbd>Tab</kbd> key
 
 ... will produce
 
@@ -50,7 +50,7 @@ Use **`+`** operator to place elements near each other, on the same level:
 ### Climb-up: `^`
 With `>` operator you’re descending down the generated tree and positions of all sibling elements will be resolved against the most deepest element:
 
-### **`div+div>p>span+em`** + press <kbd>Tab</kbd> key
+###### **`div+div>p>span+em`** + press <kbd>Tab</kbd> key
 
 ... will be expanded to
 
@@ -63,7 +63,7 @@ With `>` operator you’re descending down the generated tree and positions of a
 
 With `^` operator, you can climb one level up the tree and change context where following elements should appear:
 
-### **`div+div>p>span+em^bq`** + press <kbd>Tab</kbd> key
+###### **`div+div>p>span+em^bq`** + press <kbd>Tab</kbd> key
 
 ... outputs to
 
@@ -77,7 +77,7 @@ With `^` operator, you can climb one level up the tree and change context where 
 
 You can use as many **`^`** operators as you like, each operator will move one level up:
 
-### **`div+div>p>span+em^^^bq`** + press <kbd>Tab</kbd> key
+###### **`div+div>p>span+em^^^bq`** + press <kbd>Tab</kbd> key
 
 ...will output to
 
@@ -92,7 +92,7 @@ You can use as many **`^`** operators as you like, each operator will move one l
 ### Multiplication: `*`
 With **`*`** operator you can define how many times element should be outputted:
 
-### **`ul>li*5`** + press <kbd>Tab</kbd> key
+###### **`ul>li*5`** + press <kbd>Tab</kbd> key
 
 ... outputs to
 
@@ -110,7 +110,7 @@ With **`*`** operator you can define how many times element should be outputted:
 
 Parenthesises are used by Emmets’ power users for grouping subtrees in complex abbreviations:
 
-### **``div>(header>ul>li*2>a)+footer>p``** + press <kbd>Tab</kbd> key
+###### **``div>(header>ul>li*2>a)+footer>p``** + press <kbd>Tab</kbd> key
 
 ... expands to
 
@@ -128,11 +128,11 @@ Parenthesises are used by Emmets’ power users for grouping subtrees in complex
 </div>
 ```
 
-f you’re working with browser’s DOM, you may think of groups as Document Fragments: each group contains abbreviation subtree and all the following elements are inserted at the same level as the first element of group.
+If you’re working with browser’s DOM, you may think of groups as Document Fragments: each group contains abbreviation subtree and all the following elements are inserted at the same level as the first element of group.
 
 You can nest groups inside each other and combine them with multiplication `*` operator:
 
-### **`(div>dl>(dt+dd)*3)+footer>p`** + press <kbd>Tab</kbd> key
+###### **`(div>dl>(dt+dd)*3)+footer>p`** + press <kbd>Tab</kbd> key
 
 ... produces
 
@@ -161,7 +161,7 @@ Attribute operators are used to modify attributes of outputted elements. For exa
 
 In _CSS_, you use **`elem#id`** and **`elem.class`** notation to reach the elements with specified **`id`** or **`class`** attributes. In Emmet, you can use the very same syntax to add these attributes to specified element:
 
-### **``div#header+div.page+div#footer.class1.class2.class3``** + press <kbd>Tab</kbd> key
+###### **``div#header+div.page+div#footer.class1.class2.class3``** + press <kbd>Tab</kbd> key
 
 ... will output
 
@@ -175,7 +175,7 @@ In _CSS_, you use **`elem#id`** and **`elem.class`** notation to reach the eleme
 
 You can use `[attr]` notation (as in _CSS_) to add custom attributes to your element:
 
-### **``td[title="Hello world!" colspan=3]``** + press <kbd>Tab</kbd> key
+###### **``td[title="Hello world!" colspan=3]``** + press <kbd>Tab</kbd> key
 
 ... outputs
 
