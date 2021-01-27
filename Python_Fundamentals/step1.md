@@ -25,9 +25,9 @@ All command line options are described in [Command line and environment](https:/
 
 When known to the interpreter, the script name and additional arguments thereafter are turned into a list of strings and assigned to the  *`argv`* variable in the  *`sys`* module. You can access this list by executing  *`import sys`*. The length of the list is at least one; when no script and no arguments are given,  *`sys.argv[0]`* is an empty string. When the script name is given as  *`'-'`* (meaning standard input),  *`sys.argv[0]`* is set to  *`'-'`*. When  *`-c`* command is used,  *`sys.argv[0]`* is set to  *`'-c'`*. When  *`-m`* module is used,  *`sys.argv[0]`* is set to the full name of the located module. Options found after  *`-c`* command or  *`-m`* module are not consumed by the Python interpreter’s option processing but left in  *`sys.argv`* for the command or module to handle.
 
-## :smiley_cat: Interactive Mode
+## Interactive Mode
 
-When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts for the next command with the primary prompt, usually three greater-than signs (*`>>>`*); for continuation lines it prompts with the secondary prompt, by default three dots (*`...`*). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt:
+When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts for the next command with the primary prompt, usually three greater-than signs (*<pre><code class="py">&gt;&gt;&gt;</code></pre>*); for continuation lines it prompts with the secondary prompt, by default three dots (*`...`*). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt:
 
 
 <pre><code class="vscode-dark">
@@ -38,10 +38,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 &gt;&gt;&gt;
 </code></pre>
 1. Open the Python Interactive session:<br>
-:smiley_cat: `python3.8`{{execute}}
+`python3.8`{{execute}}
 
 2. Run the command:<br> 
-:smiley_cat: `15 * 20`{{execute}}
+`15 * 20`{{execute}}
 <br>
 3. Exit Python Interactive Mode:<br>
-:smiley_cat: `quit()`{{execute}}
+`quit()`{{execute}}
