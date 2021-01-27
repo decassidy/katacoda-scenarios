@@ -13,15 +13,15 @@ The interpreter’s line-editing features include interactive editing, history s
 
 The interpreter operates somewhat like the Unix shell: when called with standard input connected to a tty device, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and executes a script from that file.
 
-A second way of starting the interpreter is :point_right: *`python -c command [arg] ...`*, which executes the statement(s) in command, analogous to the shell’s :point_right: *`-c`* option. Since Python statements often contain spaces or other characters that are special to the shell, it is usually advised to quote command in its entirety with single quotes.
+A second way of starting the interpreter is *`python -c command [arg] ...`*, which executes the statement(s) in command, analogous to the shell’s *`-c`* option. Since Python statements often contain spaces or other characters that are special to the shell, it is usually advised to quote command in its entirety with single quotes.
 
-Some Python modules are also useful as scripts. These can be invoked using :point_right: *`python -m module [arg] ...`*, which executes the source file for module as if you had spelled out its full name on the command line.
+Some Python modules are also useful as scripts. These can be invoked using *`python -m module [arg] ...`*, which executes the source file for module as if you had spelled out its full name on the command line.
 
 When a script file is used, it is sometimes useful to be able to run the script and enter interactive mode afterwards. This can be done by passing [-i](https://docs.python.org/3.8/using/cmdline.html#cmdoption-i) before the script.
 
 All command line options are described in [Command line and environment](https://docs.python.org/3.8/using/cmdline.html#using-on-general).
 
-## :smiley_cat: Argument Passing
+## Argument Passing
 
 When known to the interpreter, the script name and additional arguments thereafter are turned into a list of strings and assigned to the  *`argv`* variable in the  *`sys`* module. You can access this list by executing  *`import sys`*. The length of the list is at least one; when no script and no arguments are given,  *`sys.argv[0]`* is an empty string. When the script name is given as  *`'-'`* (meaning standard input),  *`sys.argv[0]`* is set to  *`'-'`*. When  *`-c`* command is used,  *`sys.argv[0]`* is set to  *`'-c'`*. When  *`-m`* module is used,  *`sys.argv[0]`* is set to the full name of the located module. Options found after  *`-c`* command or  *`-m`* module are not consumed by the Python interpreter’s option processing but left in  *`sys.argv`* for the command or module to handle.
 
