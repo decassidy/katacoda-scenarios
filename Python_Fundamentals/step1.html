@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>&colon;smiley&lowbar;cat&colon; Argument Passing</title>
+        <style>
+</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
+    </head>
+    <body class="vscode-body">
+        <p>The Python interpreter is usually installed as  <code>/usr/local/bin/python3.8</code> on those machines where it is available; putting  <code>/usr/local/bin</code> in your Unix shell’s search path makes it possible to start it by typing the command:</p>
+<pre><code class="language-BASH"><div>python3.8
+</div></code></pre>
+<p>to the shell. Since the choice of the directory where the interpreter lives is an installation option, other places are possible; check with your local Python guru or system administrator.  (E.g., <code>/usr/local/python</code> is a popular alternative location.)</p>
+<p>Typing an end-of-file character ( <em><code>Control-D</code></em> on Unix,  <em><code>Control-Z</code></em> on Windows)  at the primary prompt causes the interpreter to exit with a zero exit status. If that doesn’t work, you can exit the interpreter by typing the following command:  <em><code>quit()</code></em>.</p>
+<p>The interpreter’s line-editing features include interactive editing, history substitution and code completion on systems that support the <a href="https://tiswww.case.edu/php/chet/readline/rltop.html">GNU Readline library</a>. Perhaps the quickest check to see whether command line editing is supported is typing  <em><code>Control-P</code></em> to the first Python prompt you get. If it beeps, you have command line editing; see Appendix <a href="https://docs.python.org/3.8/tutorial/interactive.html#tut-interacting">Interactive Input Editing and History Substitution</a> for an introduction to the keys. If nothing appears to happen, or if <em><code>^P</code></em> is echoed, command line editing isn’t available; you’ll only be able to use backspace to remove characters from the current line.</p>
+<p>The interpreter operates somewhat like the Unix shell: when called with standard input connected to a tty device, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and executes a script from that file.</p>
+<p>A second way of starting the interpreter is :point_right: <em><code>python -c command [arg] ...</code></em>, which executes the statement(s) in command, analogous to the shell’s :point_right: <em><code>-c</code></em> option. Since Python statements often contain spaces or other characters that are special to the shell, it is usually advised to quote command in its entirety with single quotes.</p>
+<p>Some Python modules are also useful as scripts. These can be invoked using :point_right: <em><code>python -m module [arg] ...</code></em>, which executes the source file for module as if you had spelled out its full name on the command line.</p>
+<p>When a script file is used, it is sometimes useful to be able to run the script and enter interactive mode afterwards. This can be done by passing <a href="https://docs.python.org/3.8/using/cmdline.html#cmdoption-i">-i</a> before the script.</p>
+<p>All command line options are described in <a href="https://docs.python.org/3.8/using/cmdline.html#using-on-general">Command line and environment</a>.</p>
+<h2 id="smiley_cat-argument-passing">:smiley_cat: Argument Passing</h2>
+<p>When known to the interpreter, the script name and additional arguments thereafter are turned into a list of strings and assigned to the  <em><code>argv</code></em> variable in the  <em><code>sys</code></em> module. You can access this list by executing  <em><code>import sys</code></em>. The length of the list is at least one; when no script and no arguments are given,  <em><code>sys.argv[0]</code></em> is an empty string. When the script name is given as  <em><code>'-'</code></em> (meaning standard input),  <em><code>sys.argv[0]</code></em> is set to  <em><code>'-'</code></em>. When  <em><code>-c</code></em> command is used,  <em><code>sys.argv[0]</code></em> is set to  <em><code>'-c'</code></em>. When  <em><code>-m</code></em> module is used,  <em><code>sys.argv[0]</code></em> is set to the full name of the located module. Options found after  <em><code>-c</code></em> command or  <em><code>-m</code></em> module are not consumed by the Python interpreter’s option processing but left in  <em><code>sys.argv</code></em> for the command or module to handle.</p>
+<h2 id="interactive-mode">Interactive Mode</h2>
+<p>When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts for the next command with the primary prompt, usually three greater-than signs (<em><code>&gt;&gt;&gt;</code></em>); for continuation lines it prompts with the secondary prompt, by default three dots (<em><code>...</code></em>). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt:</p>
+<pre><code class="py">$ python3.8
+Python 3.8 (default, Sep 16 2015, 09:25:04)
+[GCC 4.8.2] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt;
+</code></pre>
+<ol>
+<li>
+<p>Open the Python Interactive session:<br>
+<code>python3.8</code>{{execute}}</p>
+</li>
+<li>
+<p>Run the command:<br>
+<code>15 * 20</code>{{execute}}
+<br></p>
+</li>
+<li>
+<p>Exit Python Interactive Mode:<br>
+<code>quit()</code>{{execute}}</p>
+</li>
+</ol>
+
+    </body>
+    </html>
