@@ -37,3 +37,5 @@ Python 3.8 (default, Sep 16 2015, 09:25:04)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+1. Execute command below:
+python3.8{{execute}}
