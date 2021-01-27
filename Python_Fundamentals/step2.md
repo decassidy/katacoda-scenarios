@@ -1,9 +1,9 @@
 
-In the following examples, input and output are distinguished by the presence or absence of prompts (:paperclip: *`>>>`* and :paperclip: *`…`*): to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command.
+In the following examples, input and output are distinguished by the presence or absence of prompts (*`>>>`* and  *`…`*): to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command.
 
-Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, :paperclip: *`#`*, and extend to the end of the physical line. A comment may appear at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples.
+Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, *`#`*, and extend to the end of the physical line. A comment may appear at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples.
 
-:smiley_cat: Some examples:
+Some examples:
 
 <pre><code class="py">
 # this is the first comment
