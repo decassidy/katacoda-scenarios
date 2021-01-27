@@ -37,11 +37,11 @@ Python 3.8 (default, Sep 16 2015, 09:25:04)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
-1. Execute command below:
+1. Execute command below:<br>
 `python3.8`{{execute}}
-<br>
-2. Run the command: 
+
+2. Run the command:<br> 
 `15 * 20`{{execute}}
 <br>
-3. Exit python interactive mode:
+3. Exit python interactive mode:<br>
 `quit()`{{execute}}
