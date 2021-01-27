@@ -387,7 +387,8 @@
     }
   },
   "environment": {
-    "showide": true
+    "showide": true,
+    "uilayout": "vscode-terminal"
   },
   "backend": {
     "imageid": "python:3.8"
