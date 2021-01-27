@@ -39,6 +39,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 1. Execute command below:
 `python3.8`{{execute}}
-
-2. Exit python interactive mode:
+<br>
+2. Run the command: 
+`15 * 20`{{execute}}
+<br>
+3. Exit python interactive mode:
 `quit()`{{execute}}
