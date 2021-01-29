@@ -30,7 +30,30 @@ The interpreter acts as a simple calculator: you can type an expression at it an
 </code></pre>
 
 Now do the following exercise:
-1. `python`{{execute}}
+1. `python3`{{execute}}
 2. `2 + 2`{{execute}}
 3. `(50 - 5*6) / 4`{{execute}}
 4. `8 / 5`{{execute}}
+5. close the interactive session: `quit()`{{execute}}
+
+The integer numbers (e.g. `2`, `4`, `20`) have type [int](https://docs.python.org/3.8/library/functions.html#int), the ones with a fractional part (e.g. `5.0`, `1.6`) have type float. We will see more about numeric types later in the tutorial.
+
+Division (`/`) always returns a float. To do [floor division](https://docs.python.org/3.8/glossary.html#term-floor-division) and get an integer result (discarding any fractional result) you can use the `//` operator; to calculate the remainder you can use `%`:
+
+<pre><code class="python">
+>>> 17 / 3  # classic division returns a float
+5.666666666666667
+>>>
+>>> 17 // 3  # floor division discards the fractional part
+5
+>>> 17 % 3  # the % operator returns the remainder of the division
+2
+>>> 5 * 3 + 2  # result * divisor + remainder
+17
+</code></pre>
+
+Now do the following exercise:
+1. Open python interactive session: `python3`{{execute}}
+2. Run this division: `17 / 3 # classic division returns a float`{{execute}}
+3. Run this division: `17 // 3 # floor division discards the fractional part`{{execute}}
+4. Run this calculation: `5 * 3 + 2  # result * divisor + remainder`{{execute}}
