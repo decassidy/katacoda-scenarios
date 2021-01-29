@@ -387,7 +387,7 @@
     }
   },
   "environment": {
-    "showide": false,
+    "showide": true,
     "uilayout": "terminal"
   },
   "backend": {
