@@ -81,4 +81,45 @@ With Python, it is possible to use the `**` operator to calculate powers:
 
 Since `**` has higher precedence than `-`, `-3**2` will be interpreted as `-(3**2)` and thus result in `-9`. To avoid this and get `9`, you can use `(-3)**2`.
 
+The equal sign (`=`) is used to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt:
+
+<pre><code class="python">&gt;&gt;&gt; width = 20
+>>> height = 5 * 9
+>>> width * height
+900
+</code></pre>
+
+If a variable is not “defined” (assigned a value), trying to use it will give you an error:
+
+<pre><code class="python">&gt;&gt;&gt; n  # try to access an undefined variable
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'n' is not defined
+</code></pre>
+
+There is full support for floating point; operators with mixed type operands convert the integer operand to floating point:
+
+<pre><code class="python">&gt;&gt;&gt; 4 * 3.75 - 1
+14.0
+</code></pre>
+
+In interactive mode, the last printed expression is assigned to the variable `_`. This means that when you are using Python as a desk calculator, it is somewhat easier to continue calculations, for example:
+
+<pre><code class="python">&gt;&gt;&gt; tax = 12.5 / 100
+>>> price = 100.50
+>>> price * tax
+12.5625
+>>> price + _
+113.0625
+>>> round(_, 2)
+113.06
+</code></pre>
+
+This variable should be treated as read-only by the user. Don’t explicitly assign a value to it — you would create an independent local variable with the same name masking the built-in variable with its magic behavior.
+
+In addition to [int](https://docs.python.org/3.8/library/functions.html#int) and [float](https://docs.python.org/3.8/library/functions.html#float), Python supports other types of numbers, such as [Decimal](https://docs.python.org/3.8/library/decimal.html#decimal.Decimal) and [Fraction](https://docs.python.org/3.8/library/fractions.html#fractions.Fraction). Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the imaginary part (e.g. 3+5j).
+This variable should be treated as read-only by the user. Don’t explicitly assign a value to it — you would create an independent local variable with the same name masking the built-in variable with its magic behavior.
+
+In addition to int and float, Python supports other types of numbers, such as Decimal and Fraction. Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the imaginary part (e.g. 3+5j).
+
 Cassidy Media 2021 - All Content from [Python Tutorials](https://docs.python.org/3/tutorial/index.html)
