@@ -45,3 +45,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 <br>
 3. Exit Python Interactive Mode:<br>
 `quit()`{{execute}}
+
+
+Cassidy Media 2021 - All Content from [Python Tutorials](https://docs.python.org/3/tutorial/index.html)
