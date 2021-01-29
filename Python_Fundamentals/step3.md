@@ -78,6 +78,7 @@ With Python, it is possible to use the `**` operator to calculate powers:
 >>> 2 ** 7  # 2 to the power of 7
 128
 </code></pre>
+
 Since `**` has higher precedence than `-`, `-3**2` will be interpreted as `-(3**2)` and thus result in `-9`. To avoid this and get `9`, you can use `(-3)**2`.
 
 Cassidy Media 2021 - All Content from [Python Tutorials](https://docs.python.org/3/tutorial/index.html)
