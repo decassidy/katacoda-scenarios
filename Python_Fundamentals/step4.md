@@ -1,6 +1,6 @@
 
 ![Python Logo](./assets/python-logo.png)
-
+___
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes (`'...'`) or double quotes (`"..."`) with the same result `\` can be used to escape quotes:
 
 <pre><code class="python">&gt;&gt;&gt; 'spam eggs'  # single quotes
