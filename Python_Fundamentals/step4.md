@@ -1,6 +1,5 @@
 
-![Python Logo](https://i.imgur.com/yOGqfxX.png)
-
+![Python Logo](./assets/python-logo.png)
 
 ---
 
@@ -17,8 +16,7 @@ Besides numbers, Python can also manipulate strings, which can be expressed in s
 >>> "\"Yes,\" they said."
 '"Yes," they said.'
 >>> '"Isn\'t," they said.'
-'"Isn\'t," they said.'
-</code></pre>
+'"Isn\'t," they said.'</code></pre>
 
 In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different from the input (the enclosing quotes could change), the two strings are equivalent. The string is enclosed in double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single quotes. The [print()](https://docs.python.org/3.8/library/functions.html#print) function produces a more readable output, by omitting the enclosing quotes and by printing escaped and special characters:
 
@@ -31,8 +29,7 @@ In the interactive interpreter, the output string is enclosed in quotes and spec
 'First line.\nSecond line.'
 >>> print(s)  # with print(), \n produces a new line
 First line.
-Second line.
-</code></pre>
+Second line.</code></pre>
 
 If you don’t want characters prefaced by `\` to be interpreted as special characters, you can use raw strings by adding an `r` before the first quote:
 
@@ -40,8 +37,7 @@ If you don’t want characters prefaced by `\` to be interpreted as special char
 C:\some
 ame
 >>> print(r'C:\some\name')  # note the r before the quote
-C:\some\name
-</code></pre>
+C:\some\name</code></pre>
 
 String literals can span multiple lines. One way is using triple-quotes: `"""..."""` or `'''...'''`. End of lines are automatically included in the string, but it’s possible to prevent this by adding a `\` at the end of the line. The following example:
 
@@ -49,8 +45,7 @@ String literals can span multiple lines. One way is using triple-quotes: `"""...
 Usage: thingy [OPTIONS]
      -h                        Display this usage message
      -H hostname               Hostname to connect to
-""")
-</code></pre>
+""")</code></pre>
 
 produces the following output (note that the initial newline is not included):
 
@@ -63,8 +58,7 @@ Strings can be concatenated (glued together) with the `+` operator, and repeated
 
 <pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="python">>>> # 3 times 'un', followed by 'ium'
 >>> 3 * 'un' + 'ium'
-'unununium'
-</code></pre>
+'unununium'</code></pre>
 
 Two or more string literals (i.e. the ones enclosed between quotes) next to each other are automatically concatenated.
 
@@ -124,8 +118,7 @@ Note that since -0 is the same as 0, negative indices start from -1.
 
 In addition to indexing, slicing is also supported. While indexing is used to obtain individual characters, slicing allows you to obtain substring:
 
-<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="python">
->>> word[0:2]  # characters from position 0 (included) to 2 (excluded)
+<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="python">>>> word[0:2]  # characters from position 0 (included) to 2 (excluded)
 'Py'
 >>> word[2:5]  # characters from position 2 (included) to 5 (excluded)
 'tho'
