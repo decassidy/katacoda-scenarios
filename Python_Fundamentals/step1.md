@@ -1,5 +1,5 @@
 
-![CassidyMedia Logo](./assets/cover_photo_without_slogan2.png)
+![Python Logo](./assets/python-logo.png)
 ___
 The Python interpreter is usually installed as  `/usr/local/bin/python3.8` on those machines where it is available; putting  `/usr/local/bin` in your Unix shell’s search path makes it possible to start it by typing the command:
 
@@ -45,5 +45,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 3. Exit Python Interactive Mode:<br>
 `quit()`{{execute}}
 
-
+![CassidyMedia Logo](./assets/cover_photo_without_slogan2.png)
 Cassidy Media 2021 - All Content from [Python Tutorials](https://docs.python.org/3/tutorial/index.html)

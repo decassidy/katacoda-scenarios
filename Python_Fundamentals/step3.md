@@ -110,4 +110,5 @@ This variable should be treated as read-only by the user. Don’t explicitly ass
 
 In addition to int and float, Python supports other types of numbers, such as Decimal and Fraction. Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the imaginary part (e.g. 3+5j).
 
+![CassidyMedia Logo](./assets/cover_photo_without_slogan2.png)
 Cassidy Media 2021 - All Content from [Python Tutorials](https://docs.python.org/3/tutorial/index.html)
