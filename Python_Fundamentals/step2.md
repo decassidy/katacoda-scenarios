@@ -14,4 +14,5 @@ text = "# This is not a comment because it's inside quotes."
 </code></pre>
 
 ![CassidyMedia Logo](./assets/wallpaper_without_slogan2.png)
+
 Cassidy Media 2021 - All Content from [Python Tutorials](https://docs.python.org/3/tutorial/index.html)
