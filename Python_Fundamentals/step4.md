@@ -1,6 +1,9 @@
 
-![Python Logo](./assets/python-logo.png)
-___
+![Python Logo](https://i.imgur.com/yOGqfxX.png)
+
+
+---
+
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes (`'...'`) or double quotes (`"..."`) with the same result `\` can be used to escape quotes:
 
 <pre><code class="python">&gt;&gt;&gt; 'spam eggs'  # single quotes
@@ -205,23 +208,33 @@ The built-in function [len()](https://docs.python.org/3.8/library/functions.html
 
 
 __See also__
+<dl style="background: #2787E7; color: white; padding: 15px">
 
-**[Text Sequence Type — str](https://docs.python.org/3.8/library/stdtypes.html#textseq)**
+<dt>
+<a href="https://docs.python.org/3.8/library/stdtypes.html#textseq" style="color: yellow;">Text Sequence Type — str</a>
+</dt>
+<dd>Strings are examples of sequence types, and support the common operations supported by such types.</dd>
 
-    Strings are examples of sequence types, and support the common operations supported by such types.
-**[String Methods](https://docs.python.org/3.8/library/stdtypes.html#string-methods)**
+<dt>
+<a href="https://docs.python.org/3.8/library/stdtypes.html#string-methods" style="color: yellow;">String Methods</a>
+</dt>
+<dd>Strings support a large number of methods for basic transformations and searching.</dd>
+    
+<dt>
+<a href="https://docs.python.org/3.8/reference/lexical_analysis.html#f-strings" style="color: yellow;">Formatted string literals</a>
+</dt>
+<dd>String literals that have embedded expressions.</dd>
 
-    Strings support a large number of methods for basic transformations and searching.
-**[Formatted string literals](https://docs.python.org/3.8/reference/lexical_analysis.html#f-strings)**
+<dt>
+<a href="https://docs.python.org/3.8/library/string.html#formatstrings" style="color: yellow;">Format String Syntax</a>
+</dt>
+<dd>Information about string formatting with <code>str.format().</code></dd>
 
-    String literals that have embedded expressions.
-**[Format String Syntax](https://docs.python.org/3.8/library/string.html#formatstrings)**
-
-    Information about string formatting with str.format().
-**[printf-style String Formatting](https://docs.python.org/3.8/library/stdtypes.html#old-string-formatting)**
-
-    The old formatting operations invoked when strings are the left operand of the % operator are described in more detail here.
-
+<dt>
+<a href="https://docs.python.org/3.8/library/stdtypes.html#old-string-formatting" style="color: yellow;">printf-style String Formatting</a> 
+</dt>
+<dd>The old formatting operations invoked when strings are the left operand of the % operator are described in more detail here.</dd>
+</dl>
 
 
 
