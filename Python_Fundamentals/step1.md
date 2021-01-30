@@ -3,7 +3,7 @@
 ___
 The Python interpreter is usually installed as  `/usr/local/bin/python3.8` on those machines where it is available; putting  `/usr/local/bin` in your Unix shell’s search path makes it possible to start it by typing the command:
 
-<pre style="background: beige; border: 1px solid gray"><code class="python">
+<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="python">
 python3.8
 </code></pre>
 
@@ -32,7 +32,7 @@ When known to the interpreter, the script name and additional arguments thereaft
 When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts for the next command with the primary prompt, usually three greater-than signs (*`>>>`*); for continuation lines it prompts with the secondary prompt, by default three dots (*`...`*). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt:
 
 
-<pre style="background: beige; border: 1px solid gray"><code class="py">$ python3.8
+<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="py">$ python3.8
 Python 3.8 (default, Sep 16 2015, 09:25:04)
 [GCC 4.8.2] on linux
 Type "help", "copyright", "credits" or "license" for more information.

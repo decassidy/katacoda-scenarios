@@ -7,7 +7,7 @@ Many of the examples in this manual, even those entered at the interactive promp
 
 Some examples:
 
-<pre style="background: beige; border: 1px solid gray"><code class="py"># this is the first comment
+<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="py"># this is the first comment
 spam = 1  # and this is the second comment`
           # ... and now a third!
 text = "# This is not a comment because it's inside quotes."
