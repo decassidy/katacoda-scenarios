@@ -1,12 +1,8 @@
 
-<link href="./assets/fontawesome6/pro/css/all.css" rel="stylesheet" />
-
 ![Python Logo](./assets/python-logo.png)
 
 ___
-<i class="fa-user fa-solid"></i>
-
-Of course, we can use Python for more complicated tasks than adding two and two together. For instance, we can write an initial sub-sequence of the Fibonacci series as follows:
+<img src="./assets/fontawesome6/pro/svgs/regular/lightbulb-exclamation-blue.svg" width="12" height="12"> Of course, we can use Python for more complicated tasks than adding two and two together. For instance, we can write an initial sub-sequence of the Fibonacci series as follows:
 
 <pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="py">>>> # Fibonacci series:
 ... # the sum of two elements defines the next
@@ -39,7 +35,7 @@ Execute the following steps:
 <br/><br/>
 6. Tap the <kbd>Space</kbd> bar 4 times and copy the following line: `a, b = b, a+b`{{copy}} and press <kbd>Enter</kbd> 2 times to execute the loop.
 
-This example introduces several new features.
+<img src="./assets/fontawesome6/pro/svgs/regular/lightbulb-exclamation-blue.svg" width="12" height="12"> This example introduces several new features.
 
 * The first line contains a multiple assignment: the variables `a` and `b` simultaneously get the new values 0 and 1. On the last line this is used again, demonstrating that the expressions on the right-hand side are all evaluated first before any of the assignments take place. The right-hand side expressions are evaluated from the left to the right.<br/>
 
@@ -53,7 +49,7 @@ This example introduces several new features.
 >>> print('The value of i is', i)
 The value of i is 65536</code></pre>
 
-The keyword argument end can be used to avoid the newline after the output, or end the output with a different string:
+<img src="./assets/fontawesome6/pro/svgs/regular/lightbulb-exclamation-blue.svg" width="12" height="12"> The keyword argument end can be used to avoid the newline after the output, or end the output with a different string:
 
 <pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="py">>>> a, b = 0, 1
 >>> while a < 1000:
