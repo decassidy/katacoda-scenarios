@@ -1,7 +1,13 @@
-
+<head>
+<!--load all Font Awesome styles -->
+  <link href="./assets/fontawesome6/pro/css/all.css" rel="stylesheet" />
+</head>
 ![Python Logo](./assets/python-logo.png)
 
 ___
+<body>
+<i class="fa-user fa-solid"></i>
+</body>
 
 Of course, we can use Python for more complicated tasks than adding two and two together. For instance, we can write an initial sub-sequence of the Fibonacci series as follows:
 
