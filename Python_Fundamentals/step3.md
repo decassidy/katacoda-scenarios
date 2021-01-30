@@ -6,7 +6,7 @@ In the following examples, input and output are distinguished by the presence or
 Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, #, and extend to the end of the physical line. A comment may appear at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples.
 
 Some examples:
-<pre><code class="python">
+<pre style="background: beige; border: 1px solid gray"><code class="python">
 # this is the first comment
 spam = 1  # and this is the second comment
           # ... and now a third!
@@ -21,7 +21,7 @@ Let’s try some simple Python commands. Start the interpreter and wait for the 
 
 The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators `+`, `-`, `*` and `/` work just like in most other languages (for example, Pascal or C); parentheses (`()`) can be used for grouping. For example:
 
-<pre><code class="python">
+<pre style="background: beige; border: 1px solid gray"><code class="python">
 >>> 2 + 2
 4
 >>> 50 - 5*6
@@ -47,7 +47,7 @@ The integer numbers (e.g. `2`, `4`, `20`) have type [int](https://docs.python.or
 
 Division (`/`) always returns a float. To do [floor division](https://docs.python.org/3.8/glossary.html#term-floor-division) and get an integer result (discarding any fractional result) you can use the `//` operator; to calculate the remainder you can use `%`:
 
-<pre><code class="python">
+<pre style="background: beige; border: 1px solid gray"><code class="python">
 >>> 17 / 3  # classic division returns a float
 5.666666666666667
 >>>
@@ -72,7 +72,7 @@ Now do the following exercise:
 
 With Python, it is possible to use the `**` operator to calculate powers:
 
-<pre><code class="python">
+<pre style="background: beige; border: 1px solid gray"><code class="python">
 >>> 5 ** 2  # 5 squared
 25
 >>> 2 ** 7  # 2 to the power of 7
@@ -83,7 +83,7 @@ Since `**` has higher precedence than `-`, `-3**2` will be interpreted as `-(3**
 
 The equal sign (`=`) is used to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt:
 
-<pre><code class="python">&gt;&gt;&gt; width = 20
+<pre style="background: beige; border: 1px solid gray"><code class="python">&gt;&gt;&gt; width = 20
 >>> height = 5 * 9
 >>> width * height
 900
@@ -91,7 +91,7 @@ The equal sign (`=`) is used to assign a value to a variable. Afterwards, no res
 
 If a variable is not “defined” (assigned a value), trying to use it will give you an error:
 
-<pre><code class="python">&gt;&gt;&gt; n  # try to access an undefined variable
+<pre style="background: beige; border: 1px solid gray"><code class="python">&gt;&gt;&gt; n  # try to access an undefined variable
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'n' is not defined
@@ -99,13 +99,13 @@ NameError: name 'n' is not defined
 
 There is full support for floating point; operators with mixed type operands convert the integer operand to floating point:
 
-<pre><code class="python">&gt;&gt;&gt; 4 * 3.75 - 1
+<pre style="background: beige; border: 1px solid gray"><code class="python">&gt;&gt;&gt; 4 * 3.75 - 1
 14.0
 </code></pre>
 
 In interactive mode, the last printed expression is assigned to the variable `_`. This means that when you are using Python as a desk calculator, it is somewhat easier to continue calculations, for example:
 
-<pre><code class="python">&gt;&gt;&gt; tax = 12.5 / 100
+<pre style="background: beige; border: 1px solid gray"><code class="python">&gt;&gt;&gt; tax = 12.5 / 100
 >>> price = 100.50
 >>> price * tax
 12.5625
