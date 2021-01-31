@@ -28,21 +28,9 @@ More
 
 ### Hands-On Exercise
 
-1. Click here to open Python interactive session: `ipython`{{execute}}<br/><br/>
-2. Type or copy the code in the highlighted gray box above: 
-   ```
-    x = int(input("Please enter an integer: "))
-    40
-    if x < 0:
-       x = 0
-       print('Negative changed to zero')
-    elif x == 0:
-        print('Zero')
-    elif x == 1:
-        print('Single')
-    else:
-        print('More')```<br/><br/>
-    ```{{execute}}
+1. Execute the follow code snippet into the ipython session: `x = int(input("Please enter an integer: "))`{{execute}}<br/><br/>
+2. Type any integer number in the `In [1]`: input line and press <kbd>Enter</kbd>.<br/><br/>
+
 ---
 
 There can be zero or more [elif](https://docs.python.org/3.8/reference/compound_stmts.html#elif) parts, and the [else](https://docs.python.org/3.8/reference/compound_stmts.html#else) part is optional. The keyword ‘`elif`’ is short for ‘`else if`’, and is useful to avoid excessive indentation. An `if … elif … elif … sequence` is a substitute for the switch or case statements found in other languages.
