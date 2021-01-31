@@ -16,7 +16,8 @@
       },
       {
         "title": "Using Python as a Calculator",
-        "text": "step3.md"
+        "text": "step3.md",
+        "CourseData": "ipython_exec.sh"
       },
       {
         "title": "Strings",
