@@ -22,8 +22,8 @@ Please enter an integer: 42
 ...
 More	
 </code>{{copy}}</pre>
-___
 
+___
 
 ### Hands-On Exercise
 
