@@ -381,7 +381,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "CourseData": "ipython_exec.sh",
+      "credits": "Python Foundation"
     },
     "finish": {
       "text": "finish.md"
