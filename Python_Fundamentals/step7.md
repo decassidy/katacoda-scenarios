@@ -30,6 +30,16 @@ More
 
 1. Execute the follow code snippet into the ipython session: `x = int(input("Please enter an integer: "))`{{execute}}<br/><br/>
 2. Type any integer number in the `In [1]`: input line and press <kbd>Enter</kbd>.<br/><br/>
+3. Execute the following code snippet `if x < 0:`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+4. Execute the following code snippet `x = 0`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+5. Execute the following code snippet `print('Negative changed to zero')`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+6. Press the <kbd>&lt;</kbd> key 4 times and execute the following code snippet `elif x == 0:`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+7. Execute the following code snippet `print('Zero')`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+8. Press the <kbd>&lt;</kbd> key 4 times and execute the following code snippet `elif x == 1:`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+9. Execute the following code snippet `print('Single')`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+10. Press the <kbd>&lt;</kbd> key 4 times and execute the following code snippet `else:`{{execute}} and press <kbd>Enter</kbd><br/><br/>
+11. Execute the following code snippet `print('More')`{{execute}} and press <kbd>Enter</kbd> 2 times to exit flow control statements.<br/><br/>
+
 
 ---
 
