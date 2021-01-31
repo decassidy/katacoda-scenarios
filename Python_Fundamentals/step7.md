@@ -23,14 +23,14 @@ Please enter an integer: 42
 More	
 </code>{{copy}}</pre>
 
-___
+---
 
 ### Hands-On Exercise
 
 1. Click here to open Python interactive session: `ipython`{{execute}}<br/><br/>
-2. Type or copy the code in the highlighted gray box above.
+2. Type or copy the code in the highlighted gray box above.<br/><br/>
 
-___
+---
 
 There can be zero or more [elif](https://docs.python.org/3.8/reference/compound_stmts.html#elif) parts, and the [else](https://docs.python.org/3.8/reference/compound_stmts.html#else) part is optional. The keyword ‘`elif`’ is short for ‘`else if`’, and is useful to avoid excessive indentation. An `if … elif … elif … sequence` is a substitute for the switch or case statements found in other languages.
 
