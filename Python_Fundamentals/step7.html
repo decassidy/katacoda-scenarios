@@ -28,25 +28,39 @@
 <p>Besides the <a href="https://docs.python.org/3.8/reference/compound_stmts.html#while">while</a> statement just introduced, Python uses the usual flow control statements known from other languages, with some twists.</p>
 <h2 id="if-statements"><code>if</code> Statements</h2>
 <p>Perhaps the most well-known statement type is the <a href="https://docs.python.org/3.8/reference/compound_stmts.html#if">if</a> statement. For example:</p>
-<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="py">>>> x = int(input("Please enter an integer: "))
-Please enter an integer: 42
->>> if x < 0:
-...     x = 0
-...     print('Negative changed to zero')
-... elif x == 0:
-...     print('Zero')
-... elif x == 1:
-...     print('Single')
-... else:
-...     print('More')
-...
-More	
-</code>{{copy}}</pre>
+<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="py">In [1]: x = int(input("Please enter an integer: "))
+Please enter an integer: 40
+
+In [2]: if x < 0:
+   ...:     x = 0
+   ...:     print('Negative changed to zero')
+   ...: elif x == 0:
+   ...:     print('Zero')
+   ...: elif x == 1:
+   ...:     print('Single')
+   ...: else:
+   ...:     print('More')
+   ...: 
+More
+</code></pre>
 <hr>
 <h3 id="hands-on-exercise">Hands-On Exercise</h3>
 <ol>
 <li>Click here to open Python interactive session: <code>ipython</code>{{execute}}<br/><br/></li>
-<li>Type or copy the code in the highlighted gray box above.<br/><br/></li>
+<li>Type or copy the code in the highlighted gray box above:<pre><code><code><div> x = int(input(&quot;Please enter an integer: &quot;))
+ 40
+ if x &lt; 0:
+    x = 0
+    print('Negative changed to zero')
+ elif x == 0:
+     print('Zero')
+ elif x == 1:
+     print('Single')
+ else:
+     print('More')```&lt;br/&gt;&lt;br/&gt;
+ ```{{execute}}
+</div></code></code></pre>
+</li>
 </ol>
 <hr>
 <p>There can be zero or more <a href="https://docs.python.org/3.8/reference/compound_stmts.html#elif">elif</a> parts, and the <a href="https://docs.python.org/3.8/reference/compound_stmts.html#else">else</a> part is optional. The keyword ‘<code>elif</code>’ is short for ‘<code>else if</code>’, and is useful to avoid excessive indentation. An <code>if … elif … elif … sequence</code> is a substitute for the switch or case statements found in other languages.</p>
