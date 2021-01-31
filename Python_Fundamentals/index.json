@@ -17,7 +17,7 @@
       {
         "title": "Using Python as a Calculator",
         "text": "step3.md",
-        "CourseData": "ipython_exec.sh"
+        "code": "ipython_exec.sh"
       },
       {
         "title": "Strings",
@@ -382,8 +382,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "CourseData": "ipython_exec.sh",
-      "credits": "Python Foundation"
+      "code": "ipython_exec.sh",
+      "credits": "All content comes from The Python Foundation"
     },
     "finish": {
       "text": "finish.md"
