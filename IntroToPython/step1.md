@@ -2,7 +2,7 @@
 ___
 The Python interpreter is usually installed as  `/usr/local/bin/python3.8` on those machines where it is available; putting  `/usr/local/bin` in your Unix shell’s search path makes it possible to start it by typing the command:
 
-<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="python">python3.8</code></pre>
+<pre style="background-color: #FFE37F; border: 1px solid #C4C4C4;"><code class="python">python3.9</code></pre>
 
 to the shell. Since the choice of the directory where the interpreter lives is an installation option, other places are possible; check with your local Python guru or system administrator.  (E.g., `/usr/local/python` is a popular alternative location.)
 
