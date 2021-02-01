@@ -12,6 +12,7 @@
       },
       {
         "title": "Step 2",
+        "code": "ipython_exec.sh",
         "text": "step2.md"
       },
       {
@@ -25,7 +26,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "ipython_exec.sh",
       "credits": "All content comes from The Python Foundation"
     },
     "finish": {
