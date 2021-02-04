@@ -11,16 +11,16 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "An Informal Introduction to Python",
         "code": "ipython_exec.sh",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Using Python as a Calculator",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Strings",
         "text": "step4.md"
       }
     ],
