@@ -12,6 +12,7 @@
       },
       {
         "title": "Learn by Doing",
+        "code": "ipython_exec.sh",
         "text": "step2.md"
       }
     ],
